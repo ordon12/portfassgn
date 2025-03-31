@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 60px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid white;
+}
+
+.intro {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.sub-intro {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #222;
+    font-size: 32px;
+}
+
+section {
+    padding: 50px;
+}
+
+.project {
+    background: white;
+    padding: 25px;
+    margin: 30px auto;
+    width: 70%;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 18px;
+    color: #555;
+}
+
+.project a, .linkedin-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.project a:hover, .linkedin-button:hover {
+    background: #005582;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 18px;
+}
